@@ -14,3 +14,15 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+
+/* CHECKBOX :  Hide the browser's default checkbox */
+.filter-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Grid */
+/* .activities-section{} */
